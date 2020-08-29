@@ -32,8 +32,8 @@
 - $$(1)\boldsymbol{f \in{}C^{k}(U,\mathbb{R}^{n}}),1 \le{}k\le{}+\infty{}$$ 
 - $$(2)\forall{}\boldsymbol{f}\in{}\boldsymbol{U}\operatorname{det}\boldsymbol{Jf(x)}\ne{}0$$ 则 $$\boldsymbol{V=f(U)}$$ 为开集,
 - 又若:
-- $$(3)\boldsymbol{f}$$ 在 $$\boldsymbol{U}$$ 上为单射.则$$f$$有逆映射$$\boldsymbol{}f^{-1}:\boldsymbol{V} \to \boldsymbol{U}$$,即 $$\displaystyle{ \boldsymbol{x=f^{-1}(y)},\boldsymbol{y=f(x)} }$$
-- 此外,$$\boldsymbol{f^{-1}\in{}C^{k}(V,U)}$$,且$$\boldsymbol{Jf^{-1}=(Jf(x))^{-1}}$$
+- $$(3)\boldsymbol{f}$$ 在 $$\boldsymbol{U}$$ 上为单射.则 $$f$$ 有逆映射 $$\boldsymbol{}f^{-1}:\boldsymbol{V} \to \boldsymbol{U}$$ ,即 $$\displaystyle{ \boldsymbol{x=f^{-1}(y)},\boldsymbol{y=f(x)} }$$
+- 此外, $$\boldsymbol{f^{-1}\in{}C^{k}(V,U)}$$ ,且 $$\boldsymbol{Jf^{-1}=(Jf(x))^{-1}}$$
 - 分析
   * 一点存在逆射和在一点邻域内存在逆射是一个意思.
   * 而本命题所给条件,正好满足了局部逆射的条件,所以本命题所给的开集中的每一点都有逆射,
