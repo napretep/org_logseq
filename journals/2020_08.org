@@ -27,5 +27,25 @@
 * Aug 27th, 2020
 * Aug 28th, 2020
 * Aug 29th, 2020
+** # 定理 8.4.4(整体逆射定理)
+- 设 $$\boldsymbol{U \subset{}\mathbb{R}^{n}}$$ 为开集, $$\boldsymbol{f:U\to \mathbb{R}^{n} }$$ 为映射,如果:
+- $$(1)\boldsymbol{f \in{}C^{k}(U,\mathbb{R}^{n}}),1 \le{}k\le{}+\infty{}$$ 
+- $$(2)\forall{}\boldsymbol{f}\in{}\boldsymbol{U}\operatorname{det}\boldsymbol{Jf(x)}\ne{}0$$则 $$\boldsymbol{V=f(U)}$$为开集,
+- 又若:
+- $$(3)\boldsymbol{f}$$在$$\boldsymbol{U}$$上为单射.则$$f$$有逆映射$$\boldsymbol{}f^{-1}:\boldsymbol{V} \to \boldsymbol{U}$$,即 $$\displaystyle{ \boldsymbol{x=f^{-1}(y)},\boldsymbol{y=f(x)} }$$
+- 此外,$$\boldsymbol{f^{-1}\in{}C^{k}(V,U)}$$,且$$\boldsymbol{Jf^{-1}=(Jf(x))^{-1}}$$
+- 分析
+  * 一点存在逆射和在一点邻域内存在逆射是一个意思.
+  * 而本命题所给条件,正好满足了局部逆射的条件,所以本命题所给的开集中的每一点都有逆射,
+  * 开集
+- 证明
+  * $$(1)$$证明 $$\boldsymbol{V}$$是开集
+   + 利用开集证明的常用方法($$\forall{}x \in{}U,\exists{}U_{x},x\in{}U_{x}\subset{}U$$)与局部逆射定理完成
+      + 根据条件(2),有$$\forall{}\boldsymbol{y^{0}\in{}V},\exists{}\boldsymbol{x^{0}\in{}U},s.t. \boldsymbol{y^{0}=f(x^{0})}$$
+      + 因为$$\boldsymbol{U}$$是开集,根据局部逆射,$$\exists{}\boldsymbol{U_{0}(U_{0}\subset{}U,x^{0}\in{}U_{0})},\exists{}\boldsymbol V_{0}\ni \boldsymbol y^{0} ,s.t.\boldsymbol{V_{0}=f(U_{0})\subset{}f(U)=V}$$
+      + 可知 $$\boldsymbol{V}$$ 是开集.
+  * $$(2)$$证明 $$\boldsymbol{f}$$有逆映射 $$\boldsymbol{f^{-1}}:\boldsymbol{V} \to \boldsymbol{U}$$且$$\boldsymbol{(Jf^{-1})=(Jf)^{-1}}$$
+    - 单射必有逆映射,所以显然.
+    - 由于整体的逆映射必然由局部的逆映射构成,根据局部的逆映射存在定理,所以导数关系也是成立的.
 * Aug 30th, 2020
 * Aug 31st, 2020
