@@ -5,4 +5,7 @@
 :custom_id: 5fa52e3a-db5a-4666-b18c-78224e8f4a6f
 :END:
 *** ((5fa52e3a-db5a-4666-b18c-78224e8f4a6f))天才
+:PROPERTIES:
+:custom_id: 5fa52ed3-c063-4431-89a5-a70978e9a618
+:END:
 ***
