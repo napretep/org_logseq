@@ -1,4 +1,7 @@
 #+TITLE: 术语表
 
 ** abc
+:PROPERTIES:
+:custom_id: 5fa52e3a-db5a-4666-b18c-78224e8f4a6f
+:END:
 ***
